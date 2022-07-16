@@ -1,0 +1,40 @@
+*{
+    font-family: Helvetica;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    padding-bottom: 10px;
+}
+
+
+body{
+    flex-direction: column;
+}
+main,header{
+    display: flex;
+    flex: auto;
+    flex-direction:row;
+}  
+.flex-container article {
+    flex: 2; 
+}
+.flex-container aside {
+    flex: 1; 
+}
+.flex-container article,aside{
+    overflow-y: auto;
+}
+.default img{
+    margin: 40px 0;
+}
+.default h1, .form h1{
+    margin-top: 100px;
+}
+.col{
+    color:#2196F3;
+}
+.ol{
+    color: #2abcae;
+}
