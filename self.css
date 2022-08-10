@@ -38,3 +38,9 @@ main,header{
 .ol{
     color: #2abcae;
 }
+.text{
+    text-indent: 50px;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    word-spacing: 1px;
+}
