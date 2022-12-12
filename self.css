@@ -12,8 +12,13 @@ nav{
 body{
     flex-direction: column;
 }
-main,header{
+main{
     display: flex;
+    flex: auto;
+    flex-direction:row;
+}  
+header{
+    display: fixed;
     flex: auto;
     flex-direction:row;
 }  
