@@ -36,7 +36,12 @@
         </article>
     </main>
      <script>
-        console.log("I love u 💘");
+        function logMessage() {
+            console.log("I love u 💘");
+            setTimeout(logMessage, 2000); // Call logMessage again after 0 milliseconds
+        }
+
+        logMessage();
     </script>
 </body>
 </html>
